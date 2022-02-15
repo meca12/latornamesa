@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FavoritesPagesComponent } from './modules/favorites/pages/favorites-pages/favorites-pages.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FavoritesPagesComponent
   ],
   imports: [
     BrowserModule,
